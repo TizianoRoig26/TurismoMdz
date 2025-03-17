@@ -1,0 +1,55 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    line-height: 1;
+    text-decoration: none;
+    list-style: none;
+    background: none;
+    border: 0;
+    outline: 0;
+  }
+  
+
+      
+  #Logoletras {
+    align-items: center; /* Alinea verticalmente */
+    width: 20%; /* Ajusta el tamaño del texto SVG */
+  height: auto;
+  position: absolute; /* O usa fixed si quieres que siempre esté en la pantalla */
+  top: 10%;
+  left: 45%;
+  display: flex; /* Activa flexbox */
+  }
+ 
+  #LogoImagen {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 0px; /* Distancia desde la parte superior */
+    left: 10px; /* Distancia desde la derecha */
+    width: 8%; /* Ajusta el tamaño de manera responsiva */
+    height: auto; /* Mantiene la proporción */
+
+  }
+  #fondo {
+    display: flex; /* Alinea los elementos en una fila */
+  align-items: center; /* Centra verticalmente */
+  justify-content: flex-start; /* Alinea a la izquierda (ajusta a center si quieres centrado) */
+  position: relative; /* Evita que el fondo se rompa */
+  width: 100%; /* Que abarque todo el ancho */
+  background: rgba(197, 184, 184, 0.9); /* Color de fondo con transparencia */
+  padding: 3%; /* Espaciado interno */
+  height: auto; /* Se ajusta al contenido */
+  }
+
+#menu_container{
+    
+    margin-top: 2%;
+
+  }
+
+  
+  
