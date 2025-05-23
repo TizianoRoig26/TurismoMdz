@@ -3,39 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosSecciones.css">
     <title>Tirra</title>
 </head>
 <body>
     <header class="header">
         <div class="menu container">
             <a href="pagina.html" class="logo">TurismoMDZ</a>
-            <img src="logo.png" alt="logo">
+            <img src="" alt="logo">
+
             <nav class="navbar">
                 <ul>
                     <li><a href="pagina.html">Principal</a></li>
                     <li><a href="#Tierra.html">Tierra</a></li>
                     <li><a href="#agua.html">Agua</a></li>
                     <li><a href="#aire.html">Aire</a></li>
-                    <li><a href="#reservas.html">Reservas</a></li>
+                    <li><a href="#formulario.html">Reservas</a></li>
                     </ul>
             </nav>
         </div>
     </header>
-    <h1> Tierra </h1>
+    <h1> Recorre Mendoza por Tierra </h1>
     <h2> Recorre los paisajes mendocinos en 4x4, explorando montañas, viñedos y rutas rurales. </h2>
-    <img src="Tierra.jpeg" alt="">
-    <section id="Tierra">
-        <h2>Experiencias en Mendoza</h2>
-        <p>Disfruta Travesias, Cabalgatas, Trekking y mas.</p>
-        <div class="Experiencias">
-            <a href="reservar.html">Travesía en 4x4 por la Cordillera</a><p>Explora caminos de altura con vistas panorámicas del Aconcagua y la precordillera.</p>
-            <img src="https://th.bing.com/th/id/OIP.0E0ql2rExaWjm8YUg9mjegHaEK?rs=1&pid=ImgDetMain" alt="">
-            <a href="reservar.html">Cabalgatas entre viñedos</a>  <p>Recorre bodegas y viñedos a caballo mientras disfrutas del paisaje mendocino.</p>
-            <img src="https://th.bing.com/th/id/OIP.taoWnb0sInvdu91uyYifFAHaE7?rs=1&pid=ImgDetMain" alt="">
-            <a href="reservar.html">Trekking en el Parque Aconcagua</a>  <p>Aventúrate por senderos de montaña y descubre la majestuosidad del cerro más alto de América.</p>
-            <img src="https://www.civitatis.com/f/argentina/mendoza/galeria/ruta-trekking-aconcagua.jpg" alt="">
-        </div>
-    </section>
-    <a href="formulario.html">Reservar </a>
+    <div class="secciones">
+        <a href="formulario.html" class="seccion-link">
+            <section id="4x4" class="seccion">
+                <h2>Travesía en 4x4 por la Cordillera</h2>
+                <p>Explora caminos de altura con vistas panorámicas del Aconcagua y la precordillera.</p>
+                <img src="https://th.bing.com/th/id/OIP.0E0ql2rExaWjm8YUg9mjegHaEK?rs=1&pid=ImgDetMain" alt="Tierra">
+            </section>
+        </a>
+    
+        <a href="formulario.html" class="seccion-link">
+            <section id="cabalgata" class="seccion">
+                <h2>Cabalgatas entre viñedos</h2>
+                <p>Explora caminos de altura con vistas panorámicas del Aconcagua y la precordillera.</p>
+                <img src="https://th.bing.com/th/id/OIP.taoWnb0sInvdu91uyYifFAHaE7?rs=1&pid=ImgDetMain" alt="Agua">
+            </section>
+        </a>
+    
+        <a href="reservar.html" class="seccion-link">
+            <section id="Trekking" class="seccion">
+                <h2>Trekking en el Parque Aconcagua</h2>
+                <p>ventúrate por senderos de montaña y descubre la majestuosidad del cerro más alto de América.</p>
+                <img src="https://www.civitatis.com/f/argentina/mendoza/galeria/ruta-trekking-aconcagua.jpg" alt="Aire">
+            </section>
+        </a>
+    </div>
 </body>
 </html>

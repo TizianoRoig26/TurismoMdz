@@ -1,42 +1,55 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tirra</title>
     <link rel="stylesheet" href="estilop.css">
-    <title>Turismo</title>
 </head>
 <body>
     <header class="header">
-      
-            <header id="fondo">
-    
-            <img id="LogoImagen" src="logo.svg" alt="logo">
-            <img id="Logoletras" src="Logoletras.svg" alt="Logo">
-        
-        </header>
-        <div id="menu_container">
-            
+        <div class="menu container">
+            <a href="pagina.html" class="logo">TurismoMDZ</a>
+            <img src="" alt="logo">
             <nav class="navbar">
                 <ul>
                     <li><a href="pagina.html">Principal</a></li>
-                    <li><a href="#Tierra">Tierra</a></li>
-                    <li><a href="#Agua">Agua</a></li>
-                    <li><a href="#Aire">Aire</a></li>
-                    </ul>
+                    <li><a href="#tierra">Tierra</a></li>
+                    <li><a href="#agua">Agua</a></li>
+                    <li><a href="#aire">Aire</a></li>
+                    <li><a href="#reservas">Reservas</a></li>
+                </ul>
             </nav>
         </div>
     </header>
-    <h2> Del sol mendocino a la nieve eterna del Aconcagua </h2>
-    <img src="Principal.jpeg" alt="">
-    <section id="Experiencias">
-        <h2>Experiencias en Mendoza</h2>
-        <p>Disfruta bodegas, rafting, senderismo, aguas termales y más.</p>
-        <div class="galeria">
-            <a href="Tierra.html">Tierra</a>    <p>Recorre los paisajes mendocinos en 4x4, explorando montañas, viñedos y rutas rurales.</p>
-            <a href="#Agua">Agua </a>   <p>Disfruta de actividades acuáticas en los ríos y lagos de Mendoza, como rafting o navegación.</p>
-            <a href="#Aire">Aire </a>  <p>Vive la emoción de volar en parapente o avioneta sobre los impresionantes paisajes de Mendoza.</p>
-        </div>
-    </section>
+    
+    <h1>Explora Mendoza</h1>
+    
+    <div class="secciones">
+        <a href="tierra.html" class="seccion-link">
+            <section id="tierra" class="seccion">
+                <h2>Tierra</h2>
+                <p>Recorre los paisajes mendocinos en 4x4, explorando montañas, viñedos y rutas rurales.</p>
+                <img src="3.jpg" alt="Tierra">
+            </section>
+        </a>
+    
+        <a href="agua.html" class="seccion-link">
+            <section id="agua" class="seccion">
+                <h2>Agua</h2>
+                <p>Disfruta de actividades acuáticas como rafting, kayak y stand-up paddle.</p>
+                <img src="2.jpg" alt="Agua">
+            </section>
+        </a>
+    
+        <a href="aire.html" class="seccion-link">
+            <section id="aire" class="seccion">
+                <h2>Aire</h2>
+                <p>Vive la adrenalina del parapente, globos aerostáticos y tirolesa en la montaña.</p>
+                <img src="1.jpg" alt="Aire">
+            </section>
+        </a>
+    </div>
+    
 </body>
 </html>
